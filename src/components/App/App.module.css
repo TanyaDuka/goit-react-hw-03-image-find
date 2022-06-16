@@ -1,0 +1,24 @@
+/*
+   * Стили компонента App
+   */
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  padding-bottom: 5px;
+}
+
+.Loader {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+.Loader svg circle,
+.Loader svg circle ~ line {
+  stroke: #3f51b5;
+}
+.ButtonDiv {
+  margin-left: auto;
+  margin-right: auto;
+}
