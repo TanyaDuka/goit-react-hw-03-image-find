@@ -44,7 +44,7 @@ export default class ImageGallery extends Component {
 }
 
 ImageGallery.propTypes = {
-  onClickImage: propTypes.func,
+  onGalleryId: propTypes.func.isRequired,
   imagesObj: propTypes.arrayOf(
     propTypes.shape({
       id: propTypes.number.isRequired,
